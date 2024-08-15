@@ -1,0 +1,101 @@
+.hero{
+    background-color: #E2F2FF;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-content{
+    width:90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 50px 0px 25px 0px;
+}
+.hero-content-wrapper{
+    display: flex;
+    gap: 10%;
+}
+.hero-content-left h1{
+    color:#001E41;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    max-width: 600px;
+}
+.hero-content-left p:nth-child(3),.hero-content-left p:nth-child(3){
+    max-width: 665px;
+    padding: 0px;
+    margin: 0px;
+}
+.hero-content-left p:nth-child(2){
+    color:#001E41;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+}
+.hero-content-left p:nth-child(3){
+    margin: 6px 0px 16px 0px;
+    color:#909090;
+    font-size: 14px;
+
+}
+.hero-button{
+    border:none;
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+    color:white;
+    background-color: #5D78FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin: 6px 0px 40px 0px;
+}
+.hero-trusted-by{
+    color:#001E41;
+    font-size: 16px;
+}
+.hero-trusted-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 631px;
+}
+.hero-image-graph div{
+    position: relative;
+}
+.hero-image-graph img {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .hero-image-graph img:nth-child(1) {
+    position: absolute;
+    top:115px;
+    right:24%;
+    animation: fadeIn 0.5s 0.5s forwards;
+  }
+  
+  .hero-image-graph img:nth-child(2) {
+    animation: fadeIn 0.5s 1s forwards;
+    position: absolute;
+    top:195px;
+    right:6%;
+  }
+  
+  .hero-image-graph img:nth-child(3) {
+    animation: fadeIn 0.5s 1.5s forwards;
+    position: absolute;
+    top:380px;
+    right:26.5%;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+          
